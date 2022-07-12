@@ -1,4 +1,4 @@
-baseurl = "https://blist.vercel.app"
+baseurl = "https://kaleidoscopic-cajeta-75298e.netlify.app"
 metaDataFormat = "yaml"
 title = "OpenWiki"
 theme = "blist"
