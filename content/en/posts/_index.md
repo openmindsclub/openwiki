@@ -1,0 +1,4 @@
+---
+author: OpenMindsClub
+title: Posts
+---

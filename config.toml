@@ -1,0 +1,108 @@
+baseurl = "https://blist.vercel.app"
+metaDataFormat = "yaml"
+title = "OpenWiki"
+theme = "blist"
+
+DefaultContentLanguage = "en"
+DefaultContentLanguageInSubdir = true
+[languages]
+  [languages.en]
+    contentDir = "content/en" #English
+    weight = 1
+    languageName = "English"
+    [languages.en.params]
+      introTitle = "Welcome to the Libre Open Source Wiki !"
+      introSubtitle = "OpenMindsClub is an Algerian Student Club passionate about Libre Open Source. We post tutorials, dissertations, reviews and articles. Stick around for long enough and you might find something you would enjoy reading !"
+      introPhoto = "/members.jpeg"
+      logo = "/header2.png"
+    [[languages.en.menu.main]]
+        name = "Posts"
+        url = "posts"
+        weight = 1
+
+    [[languages.en.menu.main]]
+        name = "About"
+        url = "page/about/"
+        weight = 2
+
+    [[languages.en.menu.main]]
+        name = "Tags"
+        url = "tags"
+        weight = 3
+
+    [[languages.en.menu.main]]
+        name = "Top Post"
+        url = "/en/posts/installing-archlinux/"
+        weight = 4
+
+  [languages.fr]
+    contentDir = "content/fr" #French
+    weight = 1
+    languageName = "Français"
+    [languages.fr.params]
+       introTitle = "Bienvenu à la Wiki du Libre Open Source !"
+      introSubtitle = "OpenMindsClub est un club estudiantin algérien passionné par le Libre Open Source. Nous publions des tutoriels, des dissertations, des critiques et des articles. N'hésitez pas à jeter un coup d'œil sur nos postes... vous pourriez trouver quelque chose qui vous conviendra !"
+      introPhoto = "/members.jpeg"
+      logo = "/header2.png"
+    [[languages.fr.menu.main]]
+        name = "Postes"
+        url = "posts"
+        weight = 1
+
+    [[languages.fr.menu.main]]
+        name = "À propos"
+        url = "page/about/"
+        weight = 2
+
+    [[languages.fr.menu.main]]
+        name = "Tags"
+        url = "tags"
+        weight = 3
+
+
+[params]
+  # Enable the darkmode toggle in header
+  darkModeToggle = true
+  
+  # Enable search in header
+  enableSearch = true
+
+  # Custom copyright - optional
+  copyright = "Copyleft 🄯 2022 · OpenMindsClub"
+  favicon = "/osi.png"
+
+  # Color for the intro details and social links block, not applicable for dark mode
+  # Supported values: Any color from TailwindCSS default colors
+  # Reference: https://tailwindcss.com/docs/customizing-colors
+  ascentColor = "bg-green-100"
+
+  # The page bundle that is shown on the front page
+  frontBundle = "posts"
+
+[params.homepage.social]
+  # Global params xommon for both languages
+  title = "Follow us"
+  description = "We do everything from projects, lectures, courses, workshops and events. Follow us closely to know more !"
+  twitter = "https://twitter.com/clubopenminds"
+  linkedin = "https://linkedin.com/company/open-minds-club"
+  github = "https://github.com/openmindsclub"
+  facebook = "https://facebook.com/openmindsclub"
+  youtube = "https://www.youtube.com/c/OpenMindsClubOMC"
+
+[[menu.main]]
+  name = "About"
+  url = "/about"
+
+[build]
+  writeStats = true
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+# syntax highlight settings
+[markup]
+  [markup.highlight]
+    style = "dracula"
+  [markup.goldmark.renderer]
+    # Enable to include inline HTML
+    unsafe = true
