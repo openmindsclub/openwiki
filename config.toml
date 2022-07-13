@@ -4,16 +4,16 @@ title = "OpenWiki"
 theme = "blist"
 
 DefaultContentLanguage = "en"
-DefaultContentLanguageInSubdir = true
+DefaultContentLanguageInSubdir = false
 [languages]
   [languages.en]
     contentDir = "content/en" #English
     weight = 1
     languageName = "English"
     [languages.en.params]
-      introTitle = "Welcome to the Libre Open Source Wiki !"
-      introSubtitle = "OpenMindsClub is an Algerian Student Club passionate about Libre Open Source. We post tutorials, dissertations, reviews and articles. Stick around for long enough and you might find something you would enjoy reading !"
-      introPhoto = "/members.jpeg"
+      introTitle = "Welcome to the Free Open Source Wiki !"
+      introSubtitle = "OpenMindsClub is an Algerian Student Club passionate about Free Open Source. We post tutorials, dissertations, reviews and articles. Stick around for long enough and you might find something you would enjoy reading !"
+      introPhoto = "/bg.jpg"
       logo = "/header2.png"
     [[languages.en.menu.main]]
         name = "Posts"
@@ -31,9 +31,15 @@ DefaultContentLanguageInSubdir = true
         weight = 3
 
     [[languages.en.menu.main]]
-        name = "Top Post"
-        url = "/en/posts/installing-archlinux/"
+        name = "Contribute"
+        url = "posts/how-to-commit/"
         weight = 4
+
+    [[languages.en.menu.main]]
+        name = "Top Post"
+        url = "posts/installing-archlinux/"
+        weight = 5
+
 
   [languages.fr]
     contentDir = "content/fr" #French
@@ -42,7 +48,7 @@ DefaultContentLanguageInSubdir = true
     [languages.fr.params]
        introTitle = "Bienvenu à la Wiki du Libre Open Source !"
       introSubtitle = "OpenMindsClub est un club estudiantin algérien passionné par le Libre Open Source. Nous publions des tutoriels, des dissertations, des critiques et des articles. N'hésitez pas à jeter un coup d'œil sur nos postes... vous pourriez trouver quelque chose qui vous conviendra !"
-      introPhoto = "/members.jpeg"
+      introPhoto = "/bg.jpg"
       logo = "/header2.png"
     [[languages.fr.menu.main]]
         name = "Postes"
@@ -68,13 +74,13 @@ DefaultContentLanguageInSubdir = true
   enableSearch = true
 
   # Custom copyright - optional
-  copyright = "Copyleft 🄯 2022 · OpenMindsClub"
+  copyright = "2022 · Attribution-ShareAlike 3.0 Unported &#127341;	&#127343; &#127246; · Humans of OpenMindsClub"
   favicon = "/osi.png"
 
   # Color for the intro details and social links block, not applicable for dark mode
   # Supported values: Any color from TailwindCSS default colors
   # Reference: https://tailwindcss.com/docs/customizing-colors
-  ascentColor = "bg-green-100"
+  ascentColor = "bg-gray-900"
 
   # The page bundle that is shown on the front page
   frontBundle = "posts"
