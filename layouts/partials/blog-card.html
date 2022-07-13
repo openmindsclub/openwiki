@@ -8,8 +8,8 @@
     </div>
   </div>
   {{ end }}
-  <div class="my-2 text-xl font-semibold">{{ .Params.title }}</div>
-  <div class="">{{ .Params.description }}</div>
+  <div class="my-2 text-xl font-semibold" style="display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; text-overflow: ellipsis;">{{ .Params.title }}</div>
+  <div class="" style="display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; text-overflow: ellipsis;">{{ .Params.description }}</div>
 </a>
   {{ if .IsTranslated -}}
     <div class="" style="font-style: italic;font-size: smaller;">
