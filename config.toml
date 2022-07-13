@@ -32,12 +32,12 @@ DefaultContentLanguageInSubdir = false
 
     [[languages.en.menu.main]]
         name = "Contribute"
-        url = "posts/how-to-commit/"
+        url = "posts/contribute-to-openwiki/"
         weight = 4
 
     [[languages.en.menu.main]]
-        name = "Top Post"
-        url = "posts/installing-archlinux/"
+        name = "Contributors"
+        url = "page/contributors/"
         weight = 5
 
 
@@ -65,6 +65,15 @@ DefaultContentLanguageInSubdir = false
         url = "tags"
         weight = 3
 
+    [[languages.fr.menu.main]]
+        name = "Contribuer"
+        url = "fr/posts/contribute-to-openwiki/"
+        weight = 4
+
+    [[languages.fr.menu.main]]
+        name = "Contributeurs"
+        url = "page/contributors/"
+        weight = 5
 
 [params]
   # Enable the darkmode toggle in header
