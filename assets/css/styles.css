@@ -22,21 +22,25 @@ header{
     max-height: 28rem;
 }
 
-ul.mobile-menu.separator {
-	list-style: none;
-	padding: 0;
-	width: 100%;
-}
+@media only screen and (max-width: 767px) {
+    ul.mobile-menu.separator {
+        list-style: none;
+        padding: 0;
+        width: 100%;
+    }
+    
+    ul.mobile-menu.separator li {
+        padding: 0.5em 1rem;
+        border-bottom: 1px solid rgb(0 0 0 / 5%);
+        width: 100%;
+        text-align: end;
+        justify-content: end;
+    
+    }
+    
+    .dark ul.mobile-menu.separator li {
+        border-bottom: 1px solid rgb(255 255 255 / 5%) !important;
+    }
+    
+  }
 
-ul.mobile-menu.separator li {
-    padding: 0.5em 1rem;
-    border-bottom: 1px solid rgb(0 0 0 / 5%);
-    width: 100%;
-    text-align: end;
-    justify-content: end;
-
-}
-
-.dark ul.mobile-menu.separator li {
-    border-bottom: 1px solid rgb(255 255 255 / 5%) !important;
-}
