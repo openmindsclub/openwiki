@@ -14,7 +14,10 @@ Mais il y a plus ! Nous faisons tout, des projets, des conférences, des cours, 
 - https://twitter.com/clubopenminds
 - https://linkedin.com/company/open-minds-club
 - https://facebook.com/openmindsclub
+- https://instagram.com/openmindsclub
 - https://www.youtube.com/c/OpenMindsClubOMC
 
+
+Jetez un coup d'oeil sur notre site web pour plus d'informations: https://openmindsclub.net
 
 Apprenez-en plus sur nos projets open source et contribuez sur [GitHub](https://github.com/openmindsclub).

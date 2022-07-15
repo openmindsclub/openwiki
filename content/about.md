@@ -11,10 +11,13 @@ type: about
 
 But there's more! We do everything from projects, lectures, courses, workshops and events. Follow us closely on social media to know more:
 
+
 - https://twitter.com/clubopenminds
 - https://linkedin.com/company/open-minds-club
 - https://facebook.com/openmindsclub
+- https://instagram.com/openmindsclub
 - https://www.youtube.com/c/OpenMindsClubOMC
 
+Take a look at our website for more information: https://openmindsclub.net
 
 Learn more about our open source projects and contribute on [GitHub](https://github.com/openmindsclub).

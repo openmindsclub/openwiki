@@ -14,7 +14,8 @@ DefaultContentLanguageInSubdir = false
       introTitle = "Welcome to the Free Open Source Wiki !"
       introSubtitle = "OpenMindsClub is an Algerian Student Club passionate about Free Open Source. We post tutorials, dissertations, reviews and articles. Stick around for long enough and you might find something you would enjoy reading !"
       introPhoto = "/bg.jpg"
-      logo = "/header2.png"
+      logo = "/logo-light.png"
+      logoDark = "/logo-dark.png"
     [[languages.en.menu.main]]
         name = "Posts"
         url = "posts"
@@ -49,7 +50,8 @@ DefaultContentLanguageInSubdir = false
        introTitle = "Bienvenu à la Wiki du Libre Open Source !"
       introSubtitle = "OpenMindsClub est un club estudiantin algérien passionné par le Libre Open Source. Nous publions des tutoriels, des dissertations, des critiques et des articles. N'hésitez pas à jeter un coup d'œil sur nos postes... vous pourriez trouver quelque chose qui vous conviendra !"
       introPhoto = "/bg.jpg"
-      logo = "/header2.png"
+      logo = "/logo-light.png"
+      logoDark = "/logo-dark.png"
     [[languages.fr.menu.main]]
         name = "Postes"
         url = "posts"
@@ -84,7 +86,7 @@ DefaultContentLanguageInSubdir = false
 
   # Custom copyright - optional
   copyright = "Attribution-ShareAlike 3.0 Unported · 2022 · Humans of OpenMindsClub"
-  favicon = "/osi.png"
+  favicon = "/favicon.png"
 
   # Color for the intro details and social links block, not applicable for dark mode
   # Supported values: Any color from TailwindCSS default colors
@@ -101,8 +103,9 @@ DefaultContentLanguageInSubdir = false
   twitter = "https://twitter.com/clubopenminds"
   linkedin = "https://linkedin.com/company/open-minds-club"
   github = "https://github.com/openmindsclub"
-  facebook = "https://facebook.com/openmindsclub"
   youtube = "https://www.youtube.com/c/OpenMindsClubOMC"
+  facebook = "https://facebook.com/openmindsclub"
+  instagram = "https://instagram.com/openmindsclub"
 
 [[menu.main]]
   name = "About"

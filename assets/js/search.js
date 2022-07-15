@@ -22,6 +22,9 @@ function closeSearch() {
   document.activeElement.blur(); // remove focus from search box 
   searchVisible = false; // search not visible
   searchResultsHeading.classList.add('hidden');
+  // Make mobile menu visibke
+  document.getElementById("mobile-menu").classList.add('flex');
+  document.getElementById("mobile-menu").classList.remove('hidden');
 }
 
 function openSearch() {
@@ -37,7 +40,12 @@ function openSearch() {
     document.querySelector('.search-ui').classList.remove("hidden");
     document.querySelector('.search-ui input').focus(); // put focus in input box so you can just start typing
     searchVisible = true; // search visible
+   
   }
+
+   // Make mobile menu invisible
+   document.getElementById("mobile-menu").classList.remove('flex');
+   document.getElementById("mobile-menu").classList.add('hidden');
 }
 
 document.addEventListener('keydown', function (event) {
