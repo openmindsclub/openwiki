@@ -3,7 +3,7 @@ metaDataFormat = "yaml"
 title = "OpenWiki"
 theme = "blist"
 
-DefaultContentLanguage = "en"
+DefaultContentLanguage = "fr"
 DefaultContentLanguageInSubdir = false
 [languages]
   [languages.en]
