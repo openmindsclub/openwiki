@@ -1,4 +1,20 @@
-# Free Open Source Software
+---
+author: "Lilia Mehamli"
+title: "What is FOSS"
+date: 2022-11-06
+description: "Learn more about FOSS, the philosophy that OpenMindsClub strives to promote since its foundation in 2009."
+tags:
+  [
+    "foss",
+    "free software",
+    "open source",
+    "free open source",
+    "GNU",
+    "licenses",
+    "open collaboration",
+  ]
+thumbnail: "/what-is-foss/thumbnail.jpg"
+---
 
 ## 1. Introduction To Open Source
 
