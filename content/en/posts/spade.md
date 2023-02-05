@@ -4,7 +4,7 @@ title: "Developing Multi-agent systems using SPADE"
 date: 2023-02-05
 description: "Smart Python Agent Development Environment is an open source python library, made to create multi-agent systems using the eXtensible Messaging and Presence Protocol (XMPP)."
 tags: ["spade", "python", "multiagents"]
-thumbnail: "/spade/thumbnail.jpg"
+thumbnail: "/spade/thumbnail.png"
 ---
 
 Smart Python Agent Development Environment is an open source python library, made to create multi-agent systems using the eXtensible Messaging and Presence Protocol (XMPP).

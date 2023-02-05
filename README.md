@@ -1,8 +1,8 @@
 # Adding a Pizza Recipe
 
-1. Add the `pizza-recipe.md` file of the article in `/content/en` or `/content/fr` depending on the language of the article.
+1. Add the `pizza-recipe.md` file of the article in `/content/en/posts` or `/content/fr/posts` depending on the language of the article.
 
-2. Add headers to the `/content/{en|fr}/pizza-recipe.md` like so:
+2. Add headers to the `/content/{en|fr}/posts/pizza-recipe.md` like so:
 
 ```
 ---
@@ -17,4 +17,12 @@ thumbnail: "/pizza-recipe/thumbnail.jpg"
 
 3. Add the thumbnail of the Pizza Recipe in `/static/pizza-recipe/thumbnail.jpg`
 
-PS: Keep in mind that the path of the thumbnail is declared in the headers (step 2) without specifying the parent folder `/static`
+PS: Keep in mind that the path of the thumbnail is declared in the headers (step 2) without specifying the parent folder `/static/`
+
+4. For the sake of conformity, we will upload all the images/media files in `pizza-recipe.md` to the folder `/static/pizza-recipe/`. And they will be referenced as such:
+
+```
+![Screenshot](/pizza-recipe/tomato.png)
+```
+
+PS: Again, without specifying the parent folder `/static/`
